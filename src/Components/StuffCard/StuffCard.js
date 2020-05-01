@@ -1,6 +1,6 @@
 import React from 'react';
 
-function App() {
+function StuffCard() {
   return (
      <div>
        <h1>Hello world</h1>
@@ -8,4 +8,4 @@ function App() {
   );
 }
 
-export default App;
+export default StuffCard;
