@@ -1,7 +1,7 @@
 import React from 'react';
-import Header from "../../Components/Header/Header";
+import HeaderMenu from "../../Components/HeaderMenu/headerMenu";
 import Button from "../../Components/Button/Button";
-import GoodsNavigation from "../../Components/GoodsNavigation/GoodsNavigation";
+import HeaderMenuTwo from "../../Components/HeaderMenu/HeaderMenuTwo/headerMenuTwo";
 
 
 const GarderobPageWoman = (props) => {
@@ -18,8 +18,8 @@ const GarderobPageWoman = (props) => {
     //     }
     return (
         <>
-            <Header />
-            <GoodsNavigation/>
+            <HeaderMenu />
+            <HeaderMenuTwo/>
 
         </>
     );

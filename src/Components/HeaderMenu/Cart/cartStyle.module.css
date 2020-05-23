@@ -1,0 +1,25 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    font-size: 55px;
+    color: white;
+    /*transition: 1s;*/
+}
+
+.modal {
+    font-size: 25px;
+    background-color: powderblue;
+    top: 13.5%;
+    right: 1%;
+    position: absolute;
+    height: 0;
+    overflow: hidden;
+    /*transition: 1s;*/
+    /*top: ;*/
+}
+
+.modal.active {
+    transition: 0.5s;
+    height: 100px;
+}

@@ -1,7 +1,7 @@
 import React from 'react';
 import MainPage from "./Pages/MainPage/MainPage";
-import GoodsNavigation from "./Components/GoodsNavigation/GoodsNavigation";
-import GoodsNavigationActive from "./Components/GoodsNavigationActive/GoodsNavigationActive";
+import HeaderMenuTwo from "./Components/HeaderMenu/HeaderMenuTwo/headerMenuTwo";
+import HeaderMenuThree from "./Components/HeaderMenuThree/headerMenuThree";
 import GarderobPageWoman from "./Pages/GarderobPages/GarderobPageWoman";
 
 function App() {

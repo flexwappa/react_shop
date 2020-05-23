@@ -1,0 +1,18 @@
+.slide {
+    min-width: 100%;
+}
+
+.SlideOne {
+    /*background-image: url("./src/Pictures/");*/
+    background-color: yellow;
+}
+
+.SlideTwo {
+    /*background-image: url("./src/Pictures/");*/
+    background-color: mediumpurple;
+}
+
+.SlideThree {
+    /*background-image: url("./src/Pictures/");*/
+    background-color: deepskyblue;
+}

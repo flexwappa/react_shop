@@ -1,8 +1,8 @@
 import React from 'react';
-import Header from "../../Components/Header/Header";
+import HeaderMenu from "../../Components/HeaderMenu/headerMenu";
 import Button from "../../Components/Button/Button";
-import GoodsNavigation from "../../Components/GoodsNavigation/GoodsNavigation";
-import Slider from "../../Components/Slider/Slider";
+import HeaderMenuTwo from "../../Components/HeaderMenu/HeaderMenuTwo/headerMenuTwo";
+import Slider from "../../Components/Slider/slider";
 
 
 const GarderobPageWoman = (props) => {
@@ -19,13 +19,12 @@ const GarderobPageWoman = (props) => {
     //     }
     return (
         <div style={{position : "relative"}}>
-            <div style={{position : "absolute", zIndex : 10}} className="col-lg-12 p-0">
-            <Header/>
-            <GoodsNavigation/>
-            </div>
-            <div className="vh-100">
+            {/*<div style={{position : "absolute", zIndex : 10}} className="col-lg-12 p-0">*/}
+            <HeaderMenu/>
+            {/*</div>*/}
+            {/*<div className="vh-100">*/}
             <Slider photos={["bg-warning"]}/>
-            </div>
+            {/*</div>*/}
         </div>
     );
 }

@@ -1,0 +1,13 @@
+.wrapper {
+    transition: 1s;
+    height: 100%;
+}
+.wrapper div {
+    background-color: wheat;
+}
+
+/*.wrapper.minusHeight {*/
+/*    transition: 1s;*/
+/*    height: 0;*/
+/*    overflow: hidden;*/
+/*}*/
