@@ -13,7 +13,7 @@ const HeaderMenuThree = ({unshowHeaderMenuThree, clas}) => {
         zIndex: 1
     }
     return (
-        <div style={OpacityBackground} className={`${style.wrapper} d-flex justify-content-center`}>
+        <div style={OpacityBackground} className={`${style.wrapper}`}>
             <div onMouseLeave={unshowHeaderMenuThree} className={`row col-lg-10 ml-0 justify-content-around align-items-center h-50 rounded-bottom`}>
                 <GoodsCard text={"Куртки"} photo={"green"}/>
                 <GoodsCard text={"Костюмы"} photo={"red"}/>

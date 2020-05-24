@@ -1,0 +1,24 @@
+/*.wrapper {*/
+/*    width: 100%;*/
+/*    background-color: black;*/
+/*    padding: 1.2em;*/
+/*    display: flex;*/
+/*    justify-content: space-around;*/
+/*}*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    line-height: 1.5;
+}
+
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.btn {
+
+}

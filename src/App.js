@@ -1,6 +1,7 @@
 import React from 'react';
+import "./AppStyle.css"
 import MainPage from "./Pages/MainPage/MainPage";
-import HeaderMenuTwo from "./Components/HeaderMenu/HeaderMenuTwo/headerMenuTwo";
+import Navigation from "./Components/HeaderMenu/Navigation/Navigation";
 import HeaderMenuThree from "./Components/HeaderMenuThree/headerMenuThree";
 import GarderobPageWoman from "./Pages/GarderobPages/GarderobPageWoman";
 

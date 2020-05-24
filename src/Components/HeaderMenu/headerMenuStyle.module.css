@@ -1,82 +1,38 @@
 .wrapper {
     display: flex;
+    position: relative;
     flex-direction: column;
     /*position: fixed;*/
     z-index: 1;
     width: 100%;
 }
 
-.headerOneWrapper {
-    width: 100%;
+.header {
+    padding-top: 0.5em;
     background-color: black;
     display: flex;
-    justify-content: space-around;
-}
-
-.headerTwoWrapper {
-
-}
-
-/*-----------GENDER------------*/
-.genderWrapper {
-    display: flex;
-}
-
-.gender {
-    cursor: pointer;
-    font-weight: bold;
-    font-size: 25px;
-    color: white;
-    height: 100%;
-    border: 5px white solid;
-    padding: 0.4em 2em;
-    transition: 0.5s;
-}
-
-.gender:nth-of-type(1) {
-    background-color: pink;
-}
-
-.gender:nth-of-type(2) {
-    margin-left: 0.7em;
-    background-color: lightskyblue;
-}
-
-.gender.active {
-    /*transition: 3s;*/
-    border-bottom: 5px solid rgba(0,0,0,0);
+    justify-content: space-evenly;
 }
 
 /*-----------SEARCH-FORM-----------*/
 .formWrapper {
     width: 40%;
     position: relative;
-    font-size: 21px;
 }
 
 .formWrapper input {
-    margin-top: 0.5em;
+    font-size: 1em;
     width: 100%;
-    height: 70%;
-    border-radius: 22px/50%;
-    padding: 0.2em 0.5em;
-    outline: none;
+    border: 0;
+    height: 38px;
+    padding-left: 16px;
+    padding-right: 46px;
 }
 
 .formWrapper i {
     position: absolute;
     right: 2%;
-    font-size: 30px;
-    top: 25%;
+    font-size: 23px;
+    top: 21%;
     cursor: pointer;
-}
-
-/*-----------ICONS-----------*/
-.iconsWrapper {
-    display: flex;
-    padding-top: 0.15em;
-}
-
-.iconsWrapper div:last-child {
-    margin-left: 0.7em;
 }

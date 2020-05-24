@@ -1,0 +1,22 @@
+.wrapper {
+    cursor: pointer;
+    color: white;
+    transition: 0.5s;
+}
+/*------------HEADER--BUTTON--STYLES-----------*/
+.woman, .man {
+    font-size: 25px;
+    padding: 0em 1em;
+    border: 5px white solid;
+    font-weight: bold;
+}
+
+.woman {
+    background-color: pink;
+}
+.man {
+    background-color: lightskyblue;
+}
+.active {
+    border-bottom: 5px solid rgba(0,0,0,0);
+}

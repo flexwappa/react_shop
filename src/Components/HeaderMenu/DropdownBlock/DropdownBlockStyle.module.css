@@ -1,0 +1,49 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    font-size: 35px;
+    color: white;
+    position: relative;
+    /*transition: 1s;*/
+}
+
+.modal {
+    position: absolute;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.active {
+    max-height: 100vh;
+    transition: 1s;
+}
+.navigationDropDown {
+    background-color: wheat;
+    border: 5px solid gray;
+    border-top: none;
+    top: 47px;
+    right: -5px;
+    width: 100%;
+}
+
+/*.modal {*/
+/*    font-size: 25px;*/
+/*    background-color: powderblue;*/
+/*    top: 42px;*/
+/*    !* top: 13.5%; *!*/
+/*    !* right: 1%; *!*/
+/*    position: absolute;*/
+/*    max-height: 0;*/
+/*    overflow: hidden;*/
+/*    !* transition: 1s; *!*/
+/*    z-index: 1;*/
+/*    right: -20px;*/
+/*    transition: 0.5s;*/
+/*}*/
+
+/*.modal.active {*/
+/*    transition: 1s;*/
+/*    max-height: 100vh;*/
+/*}*/
